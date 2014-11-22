@@ -34,7 +34,7 @@ set number
 syntax on
 """ 色彩主题
 set background=dark
-colorscheme base16-monokai
+colorscheme base16-google
 """ 总是显示状态行
 set laststatus=2
 
