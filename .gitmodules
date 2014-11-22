@@ -28,3 +28,6 @@
 [submodule "bundle/vimcdoc"]
 	path = bundle/vimcdoc
 	url = https://github.com/tisyang/vimcdoc.git
+[submodule "bundle/vim-statusline"]
+	path = bundle/vim-statusline
+	url = https://github.com/tisyang/vim-statusline.git
