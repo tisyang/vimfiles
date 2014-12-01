@@ -3,6 +3,8 @@ setlocal colorcolumn=80
 """ 设置 cindent 选项
 " case 标号和 switch 关键字对齐
 setlocal cinoptions+=:0
+" 函数参数回绕对齐
+setlocal cinoptions+=(0
 " 独立一行函数返回值不缩进
 setlocal cinoptions+=t0
 
