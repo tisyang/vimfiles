@@ -22,7 +22,7 @@ endif
 """ 字体设置
 if has("gui_win32")
     set guifont=Consolas:h10.5
-    set guifontwide=NSimsun:h11
+    set guifontwide=Simhei:h10.5
 else
     set guifont=WenQuanYi\ Micro\ Hei\ Mono\ 11
 endif
