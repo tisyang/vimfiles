@@ -52,7 +52,6 @@ set preserveindent
 """ TAB 设置
 set shiftround
 set smarttab
-set softtabstop=8
 
 """ 易用 backspace
 set backspace=indent,eol,start
