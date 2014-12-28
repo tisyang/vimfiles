@@ -61,6 +61,8 @@ set whichwrap=b,s,<,>,[,]
 set wrap
 """ 断行模块对亚洲语言的支持
 set formatoptions+=mB
+""" 保证边界光标上下文有1行
+set scrolloff=1
 
 """ 命令行补全
 set wildmenu
