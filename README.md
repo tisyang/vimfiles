@@ -16,4 +16,4 @@ Vim 配置及插件，插件以 git submodule 存放，插件使用 pathogen 管
 
 ### 更新
 
-1. 在 `git bash` 中输入命令 `git pull`，待完成后输入命令 `git submoudle update` 。
+1. 在 `git bash` 中输入命令 `git pull`，待完成后输入命令 `git submoudle update --init` 。
