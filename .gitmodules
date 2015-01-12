@@ -43,3 +43,9 @@
 [submodule "bundle/vim-multiple-cursors"]
 	path = bundle/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors.git
+[submodule "bundle/xptemplate"]
+	path = bundle/xptemplate
+	url = https://github.com/drmingdrmer/xptemplate.git
+[submodule "bundle/targets.vim"]
+	path = bundle/targets.vim
+	url = https://github.com/wellle/targets.vim.git
