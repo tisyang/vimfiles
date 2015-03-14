@@ -102,9 +102,11 @@ endif
 "" normal mode
 nnoremap <C-A> 0
 nnoremap <C-E> $
+nnoremap <C-K> D
 "" insert mode
 inoremap <C-A> <C-O>0
 inoremap <C-E> <C-O>$
+inoremap <C-K> <C-O>D
 "" visual mode
 vnoremap <C-A> 0
 vnoremap <C-E> $
