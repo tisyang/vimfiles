@@ -64,6 +64,10 @@ set formatoptions+=mB
 """ 保证边界光标上下文有1行
 set scrolloff=1
 
+""" 便捷 <Leader>
+let mapleader=","
+""" 隐藏而不是关闭buffer
+set hidden
 """ 命令行补全
 set wildmenu
 """ 设置鼠标支持
