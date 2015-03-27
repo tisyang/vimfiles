@@ -104,6 +104,8 @@ endif
 """""""""""""""""""""""""""""""""""""""""""""""  key map
 """ 移动到行首行尾键映射 Emacs 风格
 "" normal mode
+" <C-A> 递增数字功能映射给 <C-H>
+nnoremap <C-H> <C-A>
 nnoremap <C-A> 0
 nnoremap <C-E> $
 nnoremap <C-K> D
