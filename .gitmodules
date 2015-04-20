@@ -34,12 +34,6 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
-[submodule "bundle/vim-commentary"]
-	path = bundle/vim-commentary
-	url = https://github.com/tpope/vim-commentary.git
-[submodule "bundle/vim-surround"]
-	path = bundle/vim-surround
-	url = https://github.com/tpope/vim-surround.git
 [submodule "bundle/vim-multiple-cursors"]
 	path = bundle/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors.git
@@ -49,6 +43,3 @@
 [submodule "bundle/targets.vim"]
 	path = bundle/targets.vim
 	url = https://github.com/wellle/targets.vim.git
-[submodule "bundle/vim-buffergator"]
-	path = bundle/vim-buffergator
-	url = https://github.com/jeetsukumaran/vim-buffergator.git
