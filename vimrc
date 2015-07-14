@@ -130,6 +130,8 @@ set cedit=<C-X>
 """ 插入模式左右移动使用Emacs风格
 inoremap <C-F> <Right>
 inoremap <C-B> <Left>
+""" 插入模式下 Ctrl-S 保存文件
+inoremap <C-S> <Esc>:confirm write<CR>
 
 """ 插入模式下映射 <C-Y> 为粘贴
 """ 使用 <C-O>p 或者 <C-O>P 并不能够达到效果（出现一个字符偏移）
