@@ -57,8 +57,8 @@ set smarttab
 set backspace=indent,eol,start
 """ 便捷左右移动
 set whichwrap=b,s,<,>,[,]
-""" 长行回绕
-set wrap
+""" 关闭长行回绕
+set nowrap
 """ 断行模块对亚洲语言的支持
 set formatoptions+=mB
 """ 保证边界光标上下文有1行
