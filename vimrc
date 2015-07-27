@@ -101,6 +101,10 @@ if !has("win32")
     :runtime! ftplugin/man.vim
 endif
 
+""" 自动补全设置
+" 让 Vim 自动补全菜单行为更人性化
+set completeopt=longest,menuone
+
 """""""""""""""""""""""""""""""""""""""""""""""  key map
 """ 移动到行首行尾键映射 Emacs 风格
 "" normal mode
