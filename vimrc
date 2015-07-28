@@ -141,3 +141,6 @@ inoremap <C-S> <Esc>:confirm write<CR>
 """ 使用 <C-O>p 或者 <C-O>P 并不能够达到效果（出现一个字符偏移）
 """ 改为映射 <C-Y> 是因为 <C-V> 可以输入 raw char
 inoremap <C-Y> <C-R><C-O>+
+
+""" 搜索后回车键去除高亮显示的搜索结果
+nnoremap <CR> :nohlsearch<CR><CR>
