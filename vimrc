@@ -58,7 +58,7 @@ set backspace=indent,eol,start
 """ 便捷左右移动
 set whichwrap=b,s,<,>,[,]
 """ 关闭长行回绕
-set nowrap
+"set nowrap
 """ 断行模块对亚洲语言的支持
 set formatoptions+=mB
 """ 保证边界光标上下文有1行
@@ -104,6 +104,10 @@ endif
 """ 自动补全设置
 " 让 Vim 自动补全菜单行为更人性化
 set completeopt=longest,menuone
+
+""" 关闭响铃和屏幕闪烁
+set noerrorbells visualbell t_vb=
+autocmd GUIEnter * set visualbell t_vb=
 
 """""""""""""""""""""""""""""""""""""""""""""""  key map
 """ 移动到行首行尾键映射 Emacs 风格
