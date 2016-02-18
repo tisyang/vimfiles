@@ -15,4 +15,7 @@ setlocal shiftwidth=4
 setlocal softtabstop=4
 setlocal expandtab
 
+""" 关闭长行回绕
+setlocal nowrap
+
 setlocal tags=./tags,tags,../tags,../../tags
