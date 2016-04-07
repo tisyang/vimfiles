@@ -107,6 +107,9 @@ set completeopt=longest,menuone
 set noerrorbells visualbell t_vb=
 autocmd GUIEnter * set visualbell t_vb=
 
+""" 使用matchit.vim
+runtime macros/matchit.vim
+
 """""""""""""""""""""""""""""""""""""""""""""""  key map
 """ 移动到行首行尾键映射 Emacs 风格
 "" normal mode
