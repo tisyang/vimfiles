@@ -22,9 +22,6 @@
 [submodule "bundle/fencview"]
 	path = bundle/fencview
 	url = https://github.com/mbbill/fencview.git
-[submodule "bundle/taglist"]
-	path = bundle/taglist
-	url = https://github.com/tisyang/taglist.git
 [submodule "bundle/vimcdoc"]
 	path = bundle/vimcdoc
 	url = https://github.com/tisyang/vimcdoc.git
