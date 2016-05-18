@@ -149,3 +149,11 @@ inoremap <C-Y> <C-R><C-O>+
 
 """ 搜索后回车键去除高亮显示的搜索结果
 nnoremap <CR> :nohlsearch<CR><CR>
+
+""" 普通模式上下行移动视觉上的行而不是物理行
+nnoremap j gj
+nnoremap k gk
+
+""" 可视模式选择块左移右移缩进后仍然保持选中状态
+vmap > >gv
+vmap < <gv
