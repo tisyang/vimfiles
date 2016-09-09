@@ -21,8 +21,8 @@ endif
 
 """ 字体设置
 if has("gui_win32")
-    set guifont=Consolas:h10.5
-    set guifontwide=Simhei:h10.5
+    set guifont=Consolas:h11
+    set guifontwide=Microsoft\ Yahei\ Mono:h10
 else
     set guifont=WenQuanYi\ Micro\ Hei\ Mono\ 11
 endif
@@ -34,7 +34,7 @@ set number
 syntax on
 """ 色彩主题
 set background=dark
-colorscheme gruvbox
+colorscheme base16-solarized-dark
 """ 总是显示状态行
 set laststatus=2
 
