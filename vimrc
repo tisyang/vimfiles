@@ -22,7 +22,9 @@ endif
 """ 字体设置
 if has("gui_win32")
     set guifont=Consolas:h11
-    set guifontwide=Microsoft\ Yahei\ Mono:h10
+    if has("directx")
+	set renderoptions=type:directx
+    endif
 else
     set guifont=WenQuanYi\ Micro\ Hei\ Mono\ 11
 endif
