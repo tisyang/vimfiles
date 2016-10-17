@@ -17,6 +17,7 @@ if has("gui_running")
     set guioptions-=T
     " 隐藏菜单栏中的撕下此菜单
     set guioptions-=t
+    set mousemodel=popup
 endif
 
 """ 字体设置
