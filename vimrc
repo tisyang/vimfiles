@@ -8,6 +8,7 @@ execute pathogen#infect()
 """ 编码设置
 set encoding=utf-8
 set fileencoding=utf-8
+set fileencodings=ucs-bom,utf-8,cp936,gbk,gb18030,latin1
 
 """ 界面设置
 if has("gui_running")
