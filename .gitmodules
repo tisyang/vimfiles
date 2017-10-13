@@ -19,9 +19,6 @@
 [submodule "bundle/fencview"]
 	path = bundle/fencview
 	url = https://github.com/mbbill/fencview.git
-[submodule "bundle/vimcdoc"]
-	path = bundle/vimcdoc
-	url = https://github.com/tisyang/vimcdoc.git
 [submodule "bundle/lightline.vim"]
 	path = bundle/lightline.vim
 	url = https://github.com/itchyny/lightline.vim.git
