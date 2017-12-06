@@ -37,8 +37,7 @@ set number
 """ 语法高亮
 syntax on
 """ 色彩主题
-set background=dark
-colorscheme base16-solarized-dark
+colorscheme dracula
 """ 总是显示状态行
 set laststatus=2
 

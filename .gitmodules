@@ -46,3 +46,6 @@
 [submodule "bundle/vimcdoc"]
 	path = bundle/vimcdoc
 	url = https://github.com/yianwillis/vimcdoc.git
+[submodule "bundle/dracula-theme"]
+	path = bundle/dracula-theme
+	url = https://github.com/dracula/vim.git
