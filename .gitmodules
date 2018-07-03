@@ -55,3 +55,6 @@
 [submodule "bundle/vim-gitgutter"]
 	path = bundle/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "bundle/pangu.vim"]
+	path = bundle/pangu.vim
+	url = https://github.com/hotoo/pangu.vim.git
