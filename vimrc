@@ -94,6 +94,8 @@ set foldlevelstart=99
 
 """ 禁用swapfile
 set noswapfile
+""" 设置较少的 updatetime
+set updatetime=1000
 
 """ 设置工作目录为当前文件位置
 autocmd BufEnter * silent! lcd %:p:h
