@@ -52,9 +52,6 @@
 [submodule "bundle/papercolor-theme"]
 	path = bundle/papercolor-theme
 	url = https://github.com/NLKNguyen/papercolor-theme.git
-[submodule "bundle/onedark.vim"]
-	path = bundle/onedark.vim
-	url = https://github.com/joshdick/onedark.vim.git
 [submodule "bundle/vim-cmake-syntax"]
 	path = bundle/vim-cmake-syntax
 	url = https://github.com/pboettch/vim-cmake-syntax.git
