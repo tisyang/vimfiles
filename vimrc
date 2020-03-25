@@ -28,7 +28,7 @@ if has("gui_win32")
 	set renderoptions=type:directx
     endif
 else
-    set guifont=WenQuanYi\ Micro\ Hei\ Mono\ 11
+    set guifont=Hack\ 11,Noto\ Mono\ 11,WenQuanYi\ Micro\ Hei\ Mono\ 11
 endif
 """ 特殊符号的显示
 set ambiwidth=double
