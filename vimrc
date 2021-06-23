@@ -25,7 +25,7 @@ endif
 if has("gui_win32")
     set guifont=Consolas:h11
     if has("directx")
-	set renderoptions=type:directx
+        set renderoptions=type:directx
     endif
 else
     set guifont=Hack\ 11,Noto\ Mono\ 11,WenQuanYi\ Micro\ Hei\ Mono\ 11
@@ -37,8 +37,9 @@ set number
 """ 语法高亮
 syntax on
 """ 色彩主题
-set background=light
-colorscheme PaperColor
+set background=dark
+colorscheme solarized8
+
 """ 总是显示状态行
 set laststatus=2
 

@@ -46,9 +46,9 @@
 [submodule "bundle/pangu.vim"]
 	path = bundle/pangu.vim
 	url = https://github.com/hotoo/pangu.vim.git
-[submodule "bundle/papercolor-theme"]
-	path = bundle/papercolor-theme
-	url = https://github.com/NLKNguyen/papercolor-theme.git
 [submodule "bundle/vim-cmake-syntax"]
 	path = bundle/vim-cmake-syntax
 	url = https://github.com/pboettch/vim-cmake-syntax.git
+[submodule "bundle/vim-solarized8"]
+	path = bundle/vim-solarized8
+	url = https://github.com/lifepillar/vim-solarized8.git
