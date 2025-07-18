@@ -28,7 +28,7 @@ if has("gui_win32")
         set renderoptions=type:directx
     endif
 else
-    set guifont=Fira\ Code\ Retina\ 11,Hack\ 11,WenQuanYi\ Micro\ Hei\ Mono\ 11
+    set guifont=Fira\ Code\ weight=450\ 10
     set guiligatures=!\"#$%&()*+-./:<=>?@[]^_{\|~
 endif
 """ 特殊符号的显示
